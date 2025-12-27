@@ -4,11 +4,6 @@ env/
 ENV/
 *.venv
 
-# Generated Protocol Buffer files
-sobel_service_pb2.py
-sobel_service_pb2_grpc.py
-*_pb2.py
-*_pb2_grpc.py
 
 # Python
 __pycache__/
@@ -16,20 +11,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-
-# Results and logs
-results/
-logs/
-*.log
-*.json
-*.pid
-
-# Plots and outputs
-plots/
-*.png
-*.jpg
-*.jpeg
-*.pdf
 
 # IDE
 .vscode/
@@ -45,7 +26,6 @@ plots/
 htmlcov/
 
 # Distribution / packaging
-.Python
 build/
 develop-eggs/
 dist/

@@ -1,0 +1,30 @@
+======================================================================
+LOAD TEST ANALYSIS REPORT
+======================================================================
+
+Test Configuration:
+  Duration: 91.48 seconds
+  Target Rate: 5.00 req/sec
+  Actual Rate: 1.07 req/sec
+  Total Requests: 98
+  Servers: localhost:50051, localhost:50052
+
+Overall Statistics:
+  Successful Requests: 93
+  Failed Requests: 5
+  Success Rate: 94.90%
+  Total Retries: 1
+  Failover Count: 2
+
+Latency Distribution:
+  Min: 287.36 ms
+  p50 (Median): 652.82 ms
+  p95: 1471.83 ms
+  p99: 1537.00 ms
+  Max: 1537.00 ms
+  Average: 812.16 ms
+
+Detected Failure Events: 0
+
+
+======================================================================
