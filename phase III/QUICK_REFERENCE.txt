@@ -1,0 +1,109 @@
+╔══════════════════════════════════════════════════════════════╗
+║              PHASE 3 - QUICK REFERENCE CARD                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────┐
+│ ACTIVATION (Always run first!)                               │
+└──────────────────────────────────────────────────────────────┘
+  source venv/bin/activate
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ RUN COMPLETE DEMO (Recommended)                              │
+└──────────────────────────────────────────────────────────────┘
+  ./scripts/run_demo.sh
+
+  • Starts 2 servers automatically
+  • Runs 90-second load test
+  • Injects 2 failures
+  • Generates plots and report
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ START SERVERS MANUALLY                                       │
+└──────────────────────────────────────────────────────────────┘
+  Terminal 1:  python3 server/sobel_server.py --port 50051 --id server-0
+  Terminal 2:  python3 server/sobel_server.py --port 50052 --id server-1
+
+  Or use script:
+  ./scripts/start_replicas.sh 2 50051
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ GENERATE LOAD                                                │
+└──────────────────────────────────────────────────────────────┘
+  python3 client/load_generator.py \
+      --servers localhost:50051,localhost:50052 \
+      --duration 60 \
+      --rate 10.0 \
+      --log results/test.json
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ INJECT FAILURES                                              │
+└──────────────────────────────────────────────────────────────┘
+  Crash server:    ./scripts/inject_failure.sh crash server-0
+  Freeze server:   ./scripts/inject_failure.sh freeze server-1
+  Resume server:   ./scripts/inject_failure.sh resume server-1
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ ANALYZE RESULTS                                              │
+└──────────────────────────────────────────────────────────────┘
+  python3 monitoring/analyze_metrics.py \
+      --log results/test.json \
+      --output results/analysis
+
+  View report:   cat results/analysis_report.txt
+  View plots:    ls results/*.png
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ MAKE TARGETS                                                 │
+└──────────────────────────────────────────────────────────────┘
+  make demo       - Run complete demo
+  make compile    - Compile proto files
+  make test       - Test basic functionality
+  make clean      - Remove generated files
+  make help       - Show all targets
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ FILE LOCATIONS                                               │
+└──────────────────────────────────────────────────────────────┘
+  Results:  results/
+  Logs:     logs/
+  Plots:    results/*.png
+  Report:   results/analysis_report.txt
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ TROUBLESHOOTING                                              │
+└──────────────────────────────────────────────────────────────┘
+  Import error:         source venv/bin/activate
+  Proto files missing:  ./scripts/compile_proto.sh
+  Port in use:          lsof -i :50051 && kill -9 <PID>
+  Check logs:           tail -f logs/server-*.log
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ EXPECTED RESULTS                                             │
+└──────────────────────────────────────────────────────────────┘
+  Success Rate:    95-100%
+  Throughput:      8-15 req/sec (baseline)
+  p95 Latency:     50-200 ms (baseline), spikes during failures
+  Recovery Time:   2-5 seconds (crash), 10-20 seconds (freeze)
+
+
+┌──────────────────────────────────────────────────────────────┐
+│ DOCUMENTATION                                                │
+└──────────────────────────────────────────────────────────────┘
+  Complete guide:   cat README.md
+  Quick start:      cat QUICKSTART.md
+  Setup info:       cat SETUP_COMPLETE.md
+  Report template:  cat REPORT_TEMPLATE.md
+
+
+╔══════════════════════════════════════════════════════════════╗
+║  STATUS: ✅ ALL SYSTEMS READY - RUN ./scripts/run_demo.sh   ║
+╚══════════════════════════════════════════════════════════════╝

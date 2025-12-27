@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+package sobel;
+
+// Sobel Edge Detection Service
+service SobelService {
+  // Process a single image with Sobel edge detection
+  rpc ProcessImage (ImageRequest) returns (ImageResponse) {}
+  
+  // Health check for load balancing
+  rpc HealthCheck (HealthRequest) returns (HealthResponse) {}
+  
+  // Get server metrics
+  rpc GetMetrics (MetricsRequest) returns (MetricsResponse) {}
+}
+
+// Image request with pixel data
+message ImageRequest {
+  int32 width = 1;
+  int32 height = 2;
+  bytes image_data = 3;  // Flattened grayscale image
+  string request_id = 4;  // For tracking
+  int64 timestamp_ms = 5;  // Client timestamp
+}
+
+// Image response with edge-detected result
+message ImageResponse {
+  int32 width = 1;
+  int32 height = 2;
+  bytes result_data = 3;  // Edge-detected image
+  string request_id = 4;
+  int64 server_timestamp_ms = 5;
+  double processing_time_ms = 6;
+  string server_id = 7;  // Which replica processed this
+}
+
+// Health check messages
+message HealthRequest {
+  string client_id = 1;
+}
+
+message HealthResponse {
+  bool healthy = 1;
+  string server_id = 2;
+  int32 load = 3;  // Current load (requests in queue)
+  int64 uptime_seconds = 4;
+}
+
+// Metrics messages
+message MetricsRequest {
+  string client_id = 1;
+}
+
+message MetricsResponse {
+  string server_id = 1;
+  int64 total_requests = 2;
+  int64 successful_requests = 3;
+  int64 failed_requests = 4;
+  double avg_processing_time_ms = 5;
+  double p95_processing_time_ms = 6;
+  double p99_processing_time_ms = 7;
+  int64 uptime_seconds = 8;
+}

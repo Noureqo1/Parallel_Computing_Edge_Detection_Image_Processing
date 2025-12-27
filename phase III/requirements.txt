@@ -1,0 +1,16 @@
+# Phase 3: Resilient Distributed Sobel Service
+# Python dependencies
+
+# gRPC and Protocol Buffers
+grpcio>=1.50.0
+grpcio-tools>=1.50.0
+protobuf>=4.21.0
+
+# Numerical computation
+numpy>=1.21.0
+
+# Visualization and analysis
+matplotlib>=3.5.0
+
+# Optional: For advanced monitoring
+# prometheus-client>=0.14.0
