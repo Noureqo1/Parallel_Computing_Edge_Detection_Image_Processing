@@ -3,7 +3,9 @@
 
 set -e
 
-cd "/home/noureqo/Parallelism/phase III"
+# Get script directory and navigate to phase III root
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd "$SCRIPT_DIR/.."
 
 echo "================================================================"
 echo "Spark Streaming + gRPC Sobel Service Test"

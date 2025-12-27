@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 gRPC server for Sobel edge detection service.
 Supports replication, health checks, and metrics collection.

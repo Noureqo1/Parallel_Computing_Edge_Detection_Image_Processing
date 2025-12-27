@@ -1,613 +1,613 @@
 {
   "metadata": {
-    "start_time": 1766859379.3221667,
-    "duration_seconds": 120.64489579200745,
+    "start_time": 1766871490.6504257,
+    "duration_seconds": 120.2024199962616,
     "target_rate": 2.0,
-    "actual_rate": 1.3179173387833745,
-    "total_requests": 159,
+    "actual_rate": 0.898484406581489,
+    "total_requests": 108,
     "servers": [
       "localhost:50051",
       "localhost:50052"
     ]
   },
   "client_stats": {
-    "total_requests": 159,
+    "total_requests": 108,
     "successful_requests": 65,
-    "failed_requests": 94,
+    "failed_requests": 43,
     "retries_count": 1,
     "failover_count": 2,
-    "success_rate": 0.4088050314465409
+    "success_rate": 0.6018518518518519
   },
   "requests": [
     {
       "request_id": "req-000000",
-      "timestamp": 1766859379.3287797,
-      "latency_ms": 271.592378616333,
+      "timestamp": 1766871490.6765494,
+      "latency_ms": 682.6634407043457,
       "success": true,
       "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 263.5350227355957
+      "processing_time_ms": 672.3618507385254
     },
     {
       "request_id": "req-000001",
-      "timestamp": 1766859379.827235,
-      "latency_ms": 1228.276014328003,
+      "timestamp": 1766871491.363573,
+      "latency_ms": 2104.8059463500977,
       "success": true,
       "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1225.4962921142578
+      "processing_time_ms": 2101.3312339782715
     },
     {
       "request_id": "req-000002",
-      "timestamp": 1766859381.0559735,
-      "latency_ms": 314.800500869751,
+      "timestamp": 1766871493.4691224,
+      "latency_ms": 711.2233638763428,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 305.21106719970703
+      "processing_time_ms": 701.2603282928467
     },
     {
       "request_id": "req-000003",
-      "timestamp": 1766859381.5584989,
-      "latency_ms": 1182.7845573425293,
+      "timestamp": 1766871494.184084,
+      "latency_ms": 2385.4403495788574,
       "success": true,
-      "server_id": "server-1",
+      "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1180.2935600280762
+      "processing_time_ms": 2380.5716037750244
     },
     {
       "request_id": "req-000004",
-      "timestamp": 1766859382.741671,
-      "latency_ms": 357.4075698852539,
+      "timestamp": 1766871496.5707035,
+      "latency_ms": 476.870059967041,
       "success": true,
-      "server_id": "server-1",
+      "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 356.243371963501
+      "processing_time_ms": 474.95055198669434
     },
     {
       "request_id": "req-000005",
-      "timestamp": 1766859383.2435465,
-      "latency_ms": 1176.8431663513184,
+      "timestamp": 1766871497.07693,
+      "latency_ms": 2287.4767780303955,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1174.318552017212
+      "processing_time_ms": 2284.118175506592
     },
     {
       "request_id": "req-000006",
-      "timestamp": 1766859384.4207885,
-      "latency_ms": 288.3763313293457,
+      "timestamp": 1766871499.3648617,
+      "latency_ms": 606.8546772003174,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 286.62824630737305
+      "processing_time_ms": 604.5703887939453
     },
     {
       "request_id": "req-000007",
-      "timestamp": 1766859384.922686,
-      "latency_ms": 1218.5368537902832,
+      "timestamp": 1766871499.9755428,
+      "latency_ms": 2319.2639350891113,
       "success": true,
       "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1216.3279056549072
+      "processing_time_ms": 2316.0574436187744
     },
     {
       "request_id": "req-000008",
-      "timestamp": 1766859386.1418166,
-      "latency_ms": 302.59037017822266,
+      "timestamp": 1766871502.2954154,
+      "latency_ms": 756.4070224761963,
       "success": true,
-      "server_id": "server-1",
+      "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 300.68492889404297
+      "processing_time_ms": 754.3370723724365
     },
     {
       "request_id": "req-000009",
-      "timestamp": 1766859386.6437454,
-      "latency_ms": 1172.6312637329102,
+      "timestamp": 1766871503.0549366,
+      "latency_ms": 2517.2476768493652,
       "success": true,
       "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1170.9089279174805
+      "processing_time_ms": 2513.338088989258
     },
     {
       "request_id": "req-000010",
-      "timestamp": 1766859387.816771,
-      "latency_ms": 281.77762031555176,
+      "timestamp": 1766871505.573126,
+      "latency_ms": 470.9928035736084,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 280.3966999053955
+      "processing_time_ms": 466.0649299621582
     },
     {
       "request_id": "req-000011",
-      "timestamp": 1766859388.3209717,
-      "latency_ms": 1112.1201515197754,
+      "timestamp": 1766871506.0760193,
+      "latency_ms": 2293.3738231658936,
       "success": true,
-      "server_id": "server-1",
+      "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1110.0022792816162
+      "processing_time_ms": 2289.8945808410645
     },
     {
       "request_id": "req-000012",
-      "timestamp": 1766859389.4337769,
-      "latency_ms": 361.4523410797119,
+      "timestamp": 1766871508.3707504,
+      "latency_ms": 639.8415565490723,
       "success": true,
       "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 359.6024513244629
+      "processing_time_ms": 636.7642879486084
     },
     {
       "request_id": "req-000013",
-      "timestamp": 1766859389.9366896,
-      "latency_ms": 1170.4540252685547,
+      "timestamp": 1766871509.0134718,
+      "latency_ms": 2201.467990875244,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1168.3344841003418
+      "processing_time_ms": 2198.221445083618
     },
     {
       "request_id": "req-000014",
-      "timestamp": 1766859391.1075518,
-      "latency_ms": 298.5846996307373,
+      "timestamp": 1766871511.2156684,
+      "latency_ms": 618.964433670044,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 297.17206954956055
+      "processing_time_ms": 617.1648502349854
     },
     {
       "request_id": "req-000015",
-      "timestamp": 1766859391.6092842,
-      "latency_ms": 1216.7487144470215,
+      "timestamp": 1766871511.83776,
+      "latency_ms": 2011.0797882080078,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1214.766263961792
+      "processing_time_ms": 2008.1231594085693
     },
     {
       "request_id": "req-000016",
-      "timestamp": 1766859392.8264804,
-      "latency_ms": 281.09169006347656,
+      "timestamp": 1766871513.8494563,
+      "latency_ms": 445.1313018798828,
       "success": true,
-      "server_id": "server-1",
+      "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 279.9832820892334
+      "processing_time_ms": 443.38345527648926
     },
     {
       "request_id": "req-000017",
-      "timestamp": 1766859393.3296473,
-      "latency_ms": 1160.6032848358154,
+      "timestamp": 1766871514.3532383,
+      "latency_ms": 2534.135341644287,
       "success": true,
       "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1158.9698791503906
+      "processing_time_ms": 2530.404567718506
     },
     {
       "request_id": "req-000018",
-      "timestamp": 1766859394.4908152,
-      "latency_ms": 317.7766799926758,
+      "timestamp": 1766871516.888257,
+      "latency_ms": 559.5121383666992,
       "success": true,
       "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 316.71905517578125
+      "processing_time_ms": 557.4336051940918
     },
     {
       "request_id": "req-000019",
-      "timestamp": 1766859394.992718,
-      "latency_ms": 1152.6892185211182,
+      "timestamp": 1766871517.4510415,
+      "latency_ms": 2208.1425189971924,
       "success": true,
       "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1150.7759094238281
+      "processing_time_ms": 2205.3165435791016
     },
     {
       "request_id": "req-000020",
-      "timestamp": 1766859396.145893,
-      "latency_ms": 337.5968933105469,
+      "timestamp": 1766871519.6598275,
+      "latency_ms": 520.4732418060303,
       "success": true,
       "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 335.89792251586914
+      "processing_time_ms": 518.6266899108887
     },
     {
       "request_id": "req-000021",
-      "timestamp": 1766859396.648249,
-      "latency_ms": 1107.602834701538,
+      "timestamp": 1766871520.1839306,
+      "latency_ms": 2288.6252403259277,
       "success": true,
-      "server_id": "server-1",
+      "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1105.529546737671
+      "processing_time_ms": 2284.2183113098145
     },
     {
       "request_id": "req-000022",
-      "timestamp": 1766859397.7562137,
-      "latency_ms": 290.07816314697266,
+      "timestamp": 1766871522.4731677,
+      "latency_ms": 494.18139457702637,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 288.7430191040039
+      "processing_time_ms": 492.47193336486816
     },
     {
       "request_id": "req-000023",
-      "timestamp": 1766859398.2586522,
-      "latency_ms": 1194.913387298584,
+      "timestamp": 1766871522.9788163,
+      "latency_ms": 2099.377155303955,
       "success": true,
-      "server_id": "server-1",
+      "server_id": "server-0",
       "image_size": "512x512",
-      "processing_time_ms": 1192.9583549499512
+      "processing_time_ms": 2096.345901489258
     },
     {
       "request_id": "req-000024",
-      "timestamp": 1766859399.4541142,
-      "latency_ms": 291.3689613342285,
+      "timestamp": 1766871525.0788176,
+      "latency_ms": 442.36207008361816,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 290.00377655029297
+      "processing_time_ms": 440.4144287109375
     },
     {
       "request_id": "req-000025",
-      "timestamp": 1766859399.9556804,
-      "latency_ms": 1182.2824478149414,
+      "timestamp": 1766871525.5814092,
+      "latency_ms": 2021.8780040740967,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1180.633544921875
+      "processing_time_ms": 2018.5282230377197
     },
     {
       "request_id": "req-000026",
-      "timestamp": 1766859401.138433,
-      "latency_ms": 293.64609718322754,
+      "timestamp": 1766871527.603969,
+      "latency_ms": 629.1682720184326,
       "success": true,
       "server_id": "server-0",
       "image_size": "256x256",
-      "processing_time_ms": 292.5410270690918
+      "processing_time_ms": 627.3441314697266
     },
     {
       "request_id": "req-000027",
-      "timestamp": 1766859401.63978,
-      "latency_ms": 1136.2075805664062,
+      "timestamp": 1766871528.2373867,
+      "latency_ms": 1679.1350841522217,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1134.2387199401855
+      "processing_time_ms": 1676.487922668457
     },
     {
       "request_id": "req-000028",
-      "timestamp": 1766859402.7763686,
-      "latency_ms": 311.4054203033447,
+      "timestamp": 1766871529.9173727,
+      "latency_ms": 433.49218368530273,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 309.5357418060303
+      "processing_time_ms": 431.81562423706055
     },
     {
       "request_id": "req-000029",
-      "timestamp": 1766859403.2790048,
-      "latency_ms": 1163.3458137512207,
+      "timestamp": 1766871530.4202075,
+      "latency_ms": 2099.5540618896484,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1161.320686340332
+      "processing_time_ms": 2096.9133377075195
     },
     {
       "request_id": "req-000030",
-      "timestamp": 1766859404.4431112,
-      "latency_ms": 315.8876895904541,
+      "timestamp": 1766871532.5209448,
+      "latency_ms": 795.7704067230225,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 314.652681350708
+      "processing_time_ms": 793.3847904205322
     },
     {
       "request_id": "req-000031",
-      "timestamp": 1766859404.9445484,
-      "latency_ms": 1345.829725265503,
+      "timestamp": 1766871533.43553,
+      "latency_ms": 2825.7038593292236,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1343.4693813323975
+      "processing_time_ms": 2714.754343032837
     },
     {
       "request_id": "req-000032",
-      "timestamp": 1766859406.2910142,
-      "latency_ms": 296.5085506439209,
+      "timestamp": 1766871536.2784188,
+      "latency_ms": 460.2785110473633,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 295.14026641845703
+      "processing_time_ms": 457.7467441558838
     },
     {
       "request_id": "req-000033",
-      "timestamp": 1766859406.7924693,
-      "latency_ms": 1205.8086395263672,
+      "timestamp": 1766871536.7895627,
+      "latency_ms": 2554.1205406188965,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1203.8729190826416
+      "processing_time_ms": 2549.948215484619
     },
     {
       "request_id": "req-000034",
-      "timestamp": 1766859407.998785,
-      "latency_ms": 278.393030166626,
+      "timestamp": 1766871539.3449514,
+      "latency_ms": 533.0033302307129,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 277.1129608154297
+      "processing_time_ms": 530.7338237762451
     },
     {
       "request_id": "req-000035",
-      "timestamp": 1766859408.5040293,
-      "latency_ms": 1117.6583766937256,
+      "timestamp": 1766871539.8829362,
+      "latency_ms": 2066.474676132202,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1115.7174110412598
+      "processing_time_ms": 2062.113046646118
     },
     {
       "request_id": "req-000036",
-      "timestamp": 1766859409.6222246,
-      "latency_ms": 293.0121421813965,
+      "timestamp": 1766871541.9501772,
+      "latency_ms": 705.0130367279053,
       "success": true,
-      "server_id": "server-0",
+      "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 291.66650772094727
+      "processing_time_ms": 703.4041881561279
     },
     {
       "request_id": "req-000037",
-      "timestamp": 1766859410.1260364,
-      "latency_ms": 1141.7596340179443,
+      "timestamp": 1766871542.6576843,
+      "latency_ms": 2349.7283458709717,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1140.0120258331299
+      "processing_time_ms": 2346.6100692749023
     },
     {
       "request_id": "req-000038",
-      "timestamp": 1766859411.2682838,
-      "latency_ms": 278.9783477783203,
+      "timestamp": 1766871545.008161,
+      "latency_ms": 600.0666618347168,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 278.12790870666504
+      "processing_time_ms": 597.9609489440918
     },
     {
       "request_id": "req-000039",
-      "timestamp": 1766859411.7772083,
-      "latency_ms": 1122.3459243774414,
+      "timestamp": 1766871545.613909,
+      "latency_ms": 2640.0890350341797,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1120.6326484680176
+      "processing_time_ms": 2636.11102104187
     },
     {
       "request_id": "req-000040",
-      "timestamp": 1766859412.9001036,
-      "latency_ms": 367.8016662597656,
+      "timestamp": 1766871548.254986,
+      "latency_ms": 520.4877853393555,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 264.16468620300293
+      "processing_time_ms": 518.2626247406006
     },
     {
       "request_id": "req-000041",
-      "timestamp": 1766859413.4053514,
-      "latency_ms": 1142.8172588348389,
+      "timestamp": 1766871548.7785747,
+      "latency_ms": 1963.5329246520996,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1140.8348083496094
+      "processing_time_ms": 1960.8724117279053
     },
     {
       "request_id": "req-000042",
-      "timestamp": 1766859414.5487225,
-      "latency_ms": 296.8149185180664,
+      "timestamp": 1766871550.7425206,
+      "latency_ms": 431.9131374359131,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 295.86148262023926
+      "processing_time_ms": 429.9294948577881
     },
     {
       "request_id": "req-000043",
-      "timestamp": 1766859415.053763,
-      "latency_ms": 1198.2550621032715,
+      "timestamp": 1766871551.2442734,
+      "latency_ms": 1908.5090160369873,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1196.4631080627441
+      "processing_time_ms": 1906.583547592163
     },
     {
       "request_id": "req-000044",
-      "timestamp": 1766859416.2527237,
-      "latency_ms": 291.2788391113281,
+      "timestamp": 1766871553.1533678,
+      "latency_ms": 482.755184173584,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 290.32254219055176
+      "processing_time_ms": 481.0292720794678
     },
     {
       "request_id": "req-000045",
-      "timestamp": 1766859416.7640867,
-      "latency_ms": 1164.1044616699219,
+      "timestamp": 1766871553.6593049,
+      "latency_ms": 2338.9647006988525,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1162.5738143920898
+      "processing_time_ms": 2334.8236083984375
     },
     {
       "request_id": "req-000046",
-      "timestamp": 1766859417.928689,
-      "latency_ms": 284.1050624847412,
+      "timestamp": 1766871555.9988573,
+      "latency_ms": 624.4926452636719,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 282.9413414001465
+      "processing_time_ms": 623.0573654174805
     },
     {
       "request_id": "req-000047",
-      "timestamp": 1766859418.4330747,
-      "latency_ms": 1138.620376586914,
+      "timestamp": 1766871556.6278298,
+      "latency_ms": 2263.24462890625,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1137.1922492980957
+      "processing_time_ms": 2260.556936264038
     },
     {
       "request_id": "req-000048",
-      "timestamp": 1766859419.5722816,
-      "latency_ms": 291.5494441986084,
+      "timestamp": 1766871558.8917074,
+      "latency_ms": 492.1374320983887,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 290.3313636779785
+      "processing_time_ms": 489.8240566253662
     },
     {
       "request_id": "req-000049",
-      "timestamp": 1766859420.07382,
-      "latency_ms": 1201.235294342041,
+      "timestamp": 1766871559.3950746,
+      "latency_ms": 2014.7571563720703,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1199.6276378631592
+      "processing_time_ms": 2011.4896297454834
     },
     {
       "request_id": "req-000050",
-      "timestamp": 1766859421.2755363,
-      "latency_ms": 297.66392707824707,
+      "timestamp": 1766871561.4109392,
+      "latency_ms": 464.7538661956787,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 296.5109348297119
+      "processing_time_ms": 462.4674320220947
     },
     {
       "request_id": "req-000051",
-      "timestamp": 1766859421.777584,
-      "latency_ms": 1191.1067962646484,
+      "timestamp": 1766871561.9152005,
+      "latency_ms": 2245.0742721557617,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1189.2375946044922
+      "processing_time_ms": 2242.3624992370605
     },
     {
       "request_id": "req-000052",
-      "timestamp": 1766859422.9693978,
-      "latency_ms": 281.7645072937012,
+      "timestamp": 1766871564.1608355,
+      "latency_ms": 566.054105758667,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 280.651330947876
+      "processing_time_ms": 564.4159317016602
     },
     {
       "request_id": "req-000053",
-      "timestamp": 1766859423.4743037,
-      "latency_ms": 1161.243200302124,
+      "timestamp": 1766871564.7304564,
+      "latency_ms": 2408.7421894073486,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1159.569263458252
+      "processing_time_ms": 2404.222249984741
     },
     {
       "request_id": "req-000054",
-      "timestamp": 1766859424.6359642,
-      "latency_ms": 295.35698890686035,
+      "timestamp": 1766871567.1403968,
+      "latency_ms": 649.4107246398926,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 293.9906120300293
+      "processing_time_ms": 646.8181610107422
     },
     {
       "request_id": "req-000055",
-      "timestamp": 1766859425.1405315,
-      "latency_ms": 1151.2460708618164,
+      "timestamp": 1766871567.7954097,
+      "latency_ms": 2346.526861190796,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1149.458408355713
+      "processing_time_ms": 2343.435764312744
     },
     {
       "request_id": "req-000056",
-      "timestamp": 1766859426.292363,
-      "latency_ms": 292.35005378723145,
+      "timestamp": 1766871570.142969,
+      "latency_ms": 449.7981071472168,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 291.2874221801758
+      "processing_time_ms": 447.5598335266113
     },
     {
       "request_id": "req-000057",
-      "timestamp": 1766859426.7939456,
-      "latency_ms": 1189.9077892303467,
+      "timestamp": 1766871570.6477053,
+      "latency_ms": 1951.857089996338,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1188.0598068237305
+      "processing_time_ms": 1948.1515884399414
     },
     {
       "request_id": "req-000058",
-      "timestamp": 1766859427.9843888,
-      "latency_ms": 296.71168327331543,
+      "timestamp": 1766871572.6002183,
+      "latency_ms": 581.1841487884521,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 295.50671577453613
+      "processing_time_ms": 579.0112018585205
     },
     {
       "request_id": "req-000059",
-      "timestamp": 1766859428.4863174,
-      "latency_ms": 1172.668218612671,
+      "timestamp": 1766871573.1850045,
+      "latency_ms": 1914.907455444336,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1171.1483001708984
+      "processing_time_ms": 1911.902666091919
     },
     {
       "request_id": "req-000060",
-      "timestamp": 1766859429.6595492,
-      "latency_ms": 310.49370765686035,
+      "timestamp": 1766871575.1009178,
+      "latency_ms": 429.4869899749756,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 309.551477432251
+      "processing_time_ms": 427.28519439697266
     },
     {
       "request_id": "req-000061",
-      "timestamp": 1766859430.1631825,
-      "latency_ms": 1182.9028129577637,
+      "timestamp": 1766871575.6023524,
+      "latency_ms": 1685.1134300231934,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1180.3817749023438
+      "processing_time_ms": 1682.4617385864258
     },
     {
       "request_id": "req-000062",
-      "timestamp": 1766859431.3470125,
-      "latency_ms": 305.4625988006592,
+      "timestamp": 1766871577.288207,
+      "latency_ms": 480.52144050598145,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 304.168701171875
+      "processing_time_ms": 477.2372245788574
     },
     {
       "request_id": "req-000063",
-      "timestamp": 1766859431.848454,
-      "latency_ms": 1155.8032035827637,
+      "timestamp": 1766871577.7908995,
+      "latency_ms": 2063.326358795166,
       "success": true,
       "server_id": "server-1",
       "image_size": "512x512",
-      "processing_time_ms": 1153.4788608551025
+      "processing_time_ms": 2060.9841346740723
     },
     {
       "request_id": "req-000064",
-      "timestamp": 1766859433.005124,
-      "latency_ms": 280.60388565063477,
+      "timestamp": 1766871579.8548944,
+      "latency_ms": 479.3052673339844,
       "success": true,
       "server_id": "server-1",
       "image_size": "256x256",
-      "processing_time_ms": 278.92255783081055
+      "processing_time_ms": 477.6802062988281
     },
     {
       "request_id": "req-000065",
-      "timestamp": 1766859433.5095036,
-      "latency_ms": 1000.1819133758545,
+      "timestamp": 1766871580.357464,
+      "latency_ms": 935.6956481933594,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -615,8 +615,8 @@
     },
     {
       "request_id": "req-000066",
-      "timestamp": 1766859434.5101511,
-      "latency_ms": 700.82688331604,
+      "timestamp": 1766871581.2939875,
+      "latency_ms": 701.0502815246582,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -624,8 +624,8 @@
     },
     {
       "request_id": "req-000067",
-      "timestamp": 1766859435.2161539,
-      "latency_ms": 700.8180618286133,
+      "timestamp": 1766871582.000594,
+      "latency_ms": 700.9778022766113,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -633,8 +633,8 @@
     },
     {
       "request_id": "req-000068",
-      "timestamp": 1766859435.917496,
-      "latency_ms": 700.6597518920898,
+      "timestamp": 1766871582.7033896,
+      "latency_ms": 701.4162540435791,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -642,8 +642,8 @@
     },
     {
       "request_id": "req-000069",
-      "timestamp": 1766859436.6200657,
-      "latency_ms": 701.0085582733154,
+      "timestamp": 1766871583.4106727,
+      "latency_ms": 701.1504173278809,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -651,8 +651,8 @@
     },
     {
       "request_id": "req-000070",
-      "timestamp": 1766859437.321671,
-      "latency_ms": 700.9117603302002,
+      "timestamp": 1766871584.114337,
+      "latency_ms": 701.134443283081,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -660,8 +660,8 @@
     },
     {
       "request_id": "req-000071",
-      "timestamp": 1766859438.0251515,
-      "latency_ms": 700.7668018341064,
+      "timestamp": 1766871584.8186274,
+      "latency_ms": 701.0598182678223,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -669,8 +669,8 @@
     },
     {
       "request_id": "req-000072",
-      "timestamp": 1766859438.7264214,
-      "latency_ms": 701.6444206237793,
+      "timestamp": 1766871585.520446,
+      "latency_ms": 701.8511295318604,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -678,8 +678,8 @@
     },
     {
       "request_id": "req-000073",
-      "timestamp": 1766859439.4301062,
-      "latency_ms": 700.9024620056152,
+      "timestamp": 1766871586.225836,
+      "latency_ms": 701.3299465179443,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -687,8 +687,8 @@
     },
     {
       "request_id": "req-000074",
-      "timestamp": 1766859440.131538,
-      "latency_ms": 700.7715702056885,
+      "timestamp": 1766871586.9284165,
+      "latency_ms": 701.1172771453857,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -696,8 +696,8 @@
     },
     {
       "request_id": "req-000075",
-      "timestamp": 1766859440.8343236,
-      "latency_ms": 700.735330581665,
+      "timestamp": 1766871587.6325798,
+      "latency_ms": 701.1182308197021,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -705,8 +705,8 @@
     },
     {
       "request_id": "req-000076",
-      "timestamp": 1766859441.5355802,
-      "latency_ms": 700.808048248291,
+      "timestamp": 1766871588.3349519,
+      "latency_ms": 700.8693218231201,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -714,8 +714,8 @@
     },
     {
       "request_id": "req-000077",
-      "timestamp": 1766859442.238401,
-      "latency_ms": 701.3399600982666,
+      "timestamp": 1766871589.0398917,
+      "latency_ms": 700.8771896362305,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -723,8 +723,8 @@
     },
     {
       "request_id": "req-000078",
-      "timestamp": 1766859442.940344,
-      "latency_ms": 701.2002468109131,
+      "timestamp": 1766871589.7414753,
+      "latency_ms": 701.4455795288086,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -732,8 +732,8 @@
     },
     {
       "request_id": "req-000079",
-      "timestamp": 1766859443.6453602,
-      "latency_ms": 701.2851238250732,
+      "timestamp": 1766871590.4456694,
+      "latency_ms": 704.6661376953125,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -741,8 +741,8 @@
     },
     {
       "request_id": "req-000080",
-      "timestamp": 1766859444.3477929,
-      "latency_ms": 702.5024890899658,
+      "timestamp": 1766871591.1511195,
+      "latency_ms": 704.0371894836426,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -750,8 +750,8 @@
     },
     {
       "request_id": "req-000081",
-      "timestamp": 1766859445.0557077,
-      "latency_ms": 701.6379833221436,
+      "timestamp": 1766871591.8574042,
+      "latency_ms": 702.6629447937012,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -759,8 +759,8 @@
     },
     {
       "request_id": "req-000082",
-      "timestamp": 1766859445.7580826,
-      "latency_ms": 701.6997337341309,
+      "timestamp": 1766871592.5610068,
+      "latency_ms": 703.566312789917,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -768,8 +768,8 @@
     },
     {
       "request_id": "req-000083",
-      "timestamp": 1766859446.4641685,
-      "latency_ms": 701.2488842010498,
+      "timestamp": 1766871593.2672794,
+      "latency_ms": 702.6562690734863,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -777,8 +777,8 @@
     },
     {
       "request_id": "req-000084",
-      "timestamp": 1766859447.1661966,
-      "latency_ms": 701.3447284698486,
+      "timestamp": 1766871593.9706776,
+      "latency_ms": 701.8651962280273,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -786,8 +786,8 @@
     },
     {
       "request_id": "req-000085",
-      "timestamp": 1766859447.8729994,
-      "latency_ms": 701.8017768859863,
+      "timestamp": 1766871594.6749609,
+      "latency_ms": 703.758955001831,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -795,8 +795,8 @@
     },
     {
       "request_id": "req-000086",
-      "timestamp": 1766859448.5753553,
-      "latency_ms": 701.6029357910156,
+      "timestamp": 1766871595.3797529,
+      "latency_ms": 701.8861770629883,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -804,8 +804,8 @@
     },
     {
       "request_id": "req-000087",
-      "timestamp": 1766859449.278831,
-      "latency_ms": 702.0206451416016,
+      "timestamp": 1766871596.0848436,
+      "latency_ms": 702.6922702789307,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -813,8 +813,8 @@
     },
     {
       "request_id": "req-000088",
-      "timestamp": 1766859449.982301,
-      "latency_ms": 700.9696960449219,
+      "timestamp": 1766871596.7884986,
+      "latency_ms": 702.2042274475098,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -822,8 +822,8 @@
     },
     {
       "request_id": "req-000089",
-      "timestamp": 1766859450.6853704,
-      "latency_ms": 701.9898891448975,
+      "timestamp": 1766871597.4939847,
+      "latency_ms": 701.854944229126,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -831,8 +831,8 @@
     },
     {
       "request_id": "req-000090",
-      "timestamp": 1766859451.388829,
-      "latency_ms": 701.848030090332,
+      "timestamp": 1766871598.19712,
+      "latency_ms": 701.3375759124756,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -840,8 +840,8 @@
     },
     {
       "request_id": "req-000091",
-      "timestamp": 1766859452.094757,
-      "latency_ms": 701.5221118927002,
+      "timestamp": 1766871598.9012446,
+      "latency_ms": 702.4054527282715,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -849,8 +849,8 @@
     },
     {
       "request_id": "req-000092",
-      "timestamp": 1766859452.798236,
-      "latency_ms": 701.6010284423828,
+      "timestamp": 1766871599.6045787,
+      "latency_ms": 702.0256519317627,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -858,8 +858,8 @@
     },
     {
       "request_id": "req-000093",
-      "timestamp": 1766859453.5018647,
-      "latency_ms": 701.8167972564697,
+      "timestamp": 1766871600.308945,
+      "latency_ms": 701.289176940918,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -867,8 +867,8 @@
     },
     {
       "request_id": "req-000094",
-      "timestamp": 1766859454.2043548,
-      "latency_ms": 702.4009227752686,
+      "timestamp": 1766871601.0111136,
+      "latency_ms": 701.2977600097656,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -876,8 +876,8 @@
     },
     {
       "request_id": "req-000095",
-      "timestamp": 1766859454.909012,
-      "latency_ms": 700.8011341094971,
+      "timestamp": 1766871601.7148302,
+      "latency_ms": 701.235294342041,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -885,8 +885,8 @@
     },
     {
       "request_id": "req-000096",
-      "timestamp": 1766859455.6104379,
-      "latency_ms": 701.4963626861572,
+      "timestamp": 1766871602.4173882,
+      "latency_ms": 701.6181945800781,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -894,8 +894,8 @@
     },
     {
       "request_id": "req-000097",
-      "timestamp": 1766859456.3174162,
-      "latency_ms": 701.1749744415283,
+      "timestamp": 1766871603.1216037,
+      "latency_ms": 701.2345790863037,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -903,8 +903,8 @@
     },
     {
       "request_id": "req-000098",
-      "timestamp": 1766859457.0191288,
-      "latency_ms": 702.0049095153809,
+      "timestamp": 1766871603.8236797,
+      "latency_ms": 701.0071277618408,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -912,8 +912,8 @@
     },
     {
       "request_id": "req-000099",
-      "timestamp": 1766859457.7255943,
-      "latency_ms": 700.8943557739258,
+      "timestamp": 1766871604.5270085,
+      "latency_ms": 700.7851600646973,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -921,8 +921,8 @@
     },
     {
       "request_id": "req-000100",
-      "timestamp": 1766859458.427161,
-      "latency_ms": 701.0254859924316,
+      "timestamp": 1766871605.2289517,
+      "latency_ms": 700.8843421936035,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -930,8 +930,8 @@
     },
     {
       "request_id": "req-000101",
-      "timestamp": 1766859459.1309226,
-      "latency_ms": 700.855016708374,
+      "timestamp": 1766871605.932767,
+      "latency_ms": 701.2660503387451,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -939,8 +939,8 @@
     },
     {
       "request_id": "req-000102",
-      "timestamp": 1766859459.8324883,
-      "latency_ms": 701.1234760284424,
+      "timestamp": 1766871606.6346707,
+      "latency_ms": 702.1234035491943,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -948,8 +948,8 @@
     },
     {
       "request_id": "req-000103",
-      "timestamp": 1766859460.549495,
-      "latency_ms": 700.6607055664062,
+      "timestamp": 1766871607.3402216,
+      "latency_ms": 701.3883590698242,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -957,8 +957,8 @@
     },
     {
       "request_id": "req-000104",
-      "timestamp": 1766859461.2506568,
-      "latency_ms": 701.007604598999,
+      "timestamp": 1766871608.0425746,
+      "latency_ms": 701.1690139770508,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -966,8 +966,8 @@
     },
     {
       "request_id": "req-000105",
-      "timestamp": 1766859461.9555144,
-      "latency_ms": 701.1151313781738,
+      "timestamp": 1766871608.745912,
+      "latency_ms": 701.0030746459961,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
@@ -975,8 +975,8 @@
     },
     {
       "request_id": "req-000106",
-      "timestamp": 1766859462.6572583,
-      "latency_ms": 701.4517784118652,
+      "timestamp": 1766871609.4485562,
+      "latency_ms": 700.9162902832031,
       "success": false,
       "server_id": null,
       "image_size": "256x256",
@@ -984,470 +984,11 @@
     },
     {
       "request_id": "req-000107",
-      "timestamp": 1766859463.3641648,
-      "latency_ms": 701.9894123077393,
+      "timestamp": 1766871610.1517324,
+      "latency_ms": 701.1044025421143,
       "success": false,
       "server_id": null,
       "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000108",
-      "timestamp": 1766859464.0680604,
-      "latency_ms": 701.6255855560303,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000109",
-      "timestamp": 1766859464.7731972,
-      "latency_ms": 702.8121948242188,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000110",
-      "timestamp": 1766859465.4764936,
-      "latency_ms": 701.5559673309326,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000111",
-      "timestamp": 1766859466.180921,
-      "latency_ms": 702.1377086639404,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000112",
-      "timestamp": 1766859466.885786,
-      "latency_ms": 701.1799812316895,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000113",
-      "timestamp": 1766859467.5907779,
-      "latency_ms": 702.5032043457031,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000114",
-      "timestamp": 1766859468.295652,
-      "latency_ms": 702.2583484649658,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000115",
-      "timestamp": 1766859469.0029533,
-      "latency_ms": 701.2584209442139,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000116",
-      "timestamp": 1766859469.7052732,
-      "latency_ms": 701.2465000152588,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000117",
-      "timestamp": 1766859470.4084518,
-      "latency_ms": 700.9506225585938,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000118",
-      "timestamp": 1766859471.1100066,
-      "latency_ms": 700.8688449859619,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000119",
-      "timestamp": 1766859471.8147926,
-      "latency_ms": 700.7877826690674,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000120",
-      "timestamp": 1766859472.5163143,
-      "latency_ms": 701.2770175933838,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000121",
-      "timestamp": 1766859473.2196062,
-      "latency_ms": 700.8917331695557,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000122",
-      "timestamp": 1766859473.9211087,
-      "latency_ms": 701.3936042785645,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000123",
-      "timestamp": 1766859474.6243126,
-      "latency_ms": 700.9983062744141,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000124",
-      "timestamp": 1766859475.326022,
-      "latency_ms": 701.4501094818115,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000125",
-      "timestamp": 1766859476.0302315,
-      "latency_ms": 701.2391090393066,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000126",
-      "timestamp": 1766859476.7321637,
-      "latency_ms": 700.796365737915,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000127",
-      "timestamp": 1766859477.4361866,
-      "latency_ms": 700.9415626525879,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000128",
-      "timestamp": 1766859478.1377203,
-      "latency_ms": 701.2012004852295,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000129",
-      "timestamp": 1766859478.841673,
-      "latency_ms": 701.2364864349365,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000130",
-      "timestamp": 1766859479.545231,
-      "latency_ms": 701.6134262084961,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000131",
-      "timestamp": 1766859480.2520986,
-      "latency_ms": 701.4400959014893,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000132",
-      "timestamp": 1766859480.9541533,
-      "latency_ms": 701.200008392334,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000133",
-      "timestamp": 1766859481.6595142,
-      "latency_ms": 700.8581161499023,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000134",
-      "timestamp": 1766859482.3615024,
-      "latency_ms": 702.0890712738037,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000135",
-      "timestamp": 1766859483.0682347,
-      "latency_ms": 702.3584842681885,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000136",
-      "timestamp": 1766859483.772778,
-      "latency_ms": 702.2056579589844,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000137",
-      "timestamp": 1766859484.4795837,
-      "latency_ms": 701.5137672424316,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000138",
-      "timestamp": 1766859485.1831868,
-      "latency_ms": 703.2408714294434,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000139",
-      "timestamp": 1766859485.8901098,
-      "latency_ms": 701.9884586334229,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000140",
-      "timestamp": 1766859486.5942426,
-      "latency_ms": 701.6799449920654,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000141",
-      "timestamp": 1766859487.3015504,
-      "latency_ms": 701.3204097747803,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000142",
-      "timestamp": 1766859488.0036204,
-      "latency_ms": 701.5628814697266,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000143",
-      "timestamp": 1766859488.7078025,
-      "latency_ms": 701.2481689453125,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000144",
-      "timestamp": 1766859489.4114292,
-      "latency_ms": 701.413631439209,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000145",
-      "timestamp": 1766859490.1170506,
-      "latency_ms": 702.1424770355225,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000146",
-      "timestamp": 1766859490.8199158,
-      "latency_ms": 701.195240020752,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000147",
-      "timestamp": 1766859491.5239916,
-      "latency_ms": 702.6345729827881,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000148",
-      "timestamp": 1766859492.2293003,
-      "latency_ms": 701.8816471099854,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000149",
-      "timestamp": 1766859492.9352272,
-      "latency_ms": 701.2531757354736,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000150",
-      "timestamp": 1766859493.637305,
-      "latency_ms": 700.9594440460205,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000151",
-      "timestamp": 1766859494.3408535,
-      "latency_ms": 701.0331153869629,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000152",
-      "timestamp": 1766859495.0425932,
-      "latency_ms": 701.0483741760254,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000153",
-      "timestamp": 1766859495.747657,
-      "latency_ms": 702.8510570526123,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000154",
-      "timestamp": 1766859496.4510329,
-      "latency_ms": 701.3020515441895,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000155",
-      "timestamp": 1766859497.15439,
-      "latency_ms": 701.7021179199219,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000156",
-      "timestamp": 1766859497.8582687,
-      "latency_ms": 701.3123035430908,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000157",
-      "timestamp": 1766859498.5626051,
-      "latency_ms": 701.8077373504639,
-      "success": false,
-      "server_id": null,
-      "image_size": "512x512",
-      "processing_time_ms": null
-    },
-    {
-      "request_id": "req-000158",
-      "timestamp": 1766859499.2649615,
-      "latency_ms": 702.0814418792725,
-      "success": false,
-      "server_id": null,
-      "image_size": "256x256",
       "processing_time_ms": null
     }
   ]
